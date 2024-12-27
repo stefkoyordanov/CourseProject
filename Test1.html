@@ -20,11 +20,31 @@
 
             var param = new URL(window.location).searchParams.get('id');
             
-            $.getJSON("Data/arrays.json", function(result){
+            
+            //$.getJSON("Data/arrays.json", function(result){
+            ////alert(result.data.find(el => el.id == param)["image"]);
+            //var imgsrc=result.data.find(el => el.id == param)["image"];            
+            //$("#myimage").attr("src", "Images/" + imgsrc);            
+           // });
+
+           $.ajax({
+            type: "POST",
+            url: "Data/arrays.json",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            //data: JSON.stringify({ 'egn': $(e.target).val() }), 
+            //data: '{egn: "' + $(e.target).val() + '" }',
+            success: function (result) {              
+            //alert(JSON.stringify(result));
+            //alert(result.data[2].id);
+            //var objJSON = JSON.parse(result.data[1]);
+            //alert(objJSON);
             //alert(result.data.find(el => el.id == param)["image"]);
-            var imgsrc=result.data.find(el => el.id == param)["image"];            
+            var imgsrc = result.data.find(el => el.id == param)["image"];            
             $("#myimage").attr("src", "Images/" + imgsrc);            
-            });            
+            } //success: function (result)            
+           });
+            
 
         });
     </script>
