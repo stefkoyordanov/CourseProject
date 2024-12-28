@@ -34,11 +34,10 @@
             dataType: "json",
             //data: JSON.stringify({ 'egn': $(e.target).val() }), 
             //data: '{egn: "' + $(e.target).val() + '" }',
-            success: function (result) {              
+            success: function (result) {                          
             //alert(JSON.stringify(result));
             //alert(result.data[2].id);
-            //var objJSON = JSON.parse(result.data[1]);
-            //alert(objJSON);
+            //alert(JSON.stringify(result.data[0]));
             //alert(result.data.find(el => el.id == param)["image"]);
             var imgsrc = result.data.find(el => el.id == param)["image"];            
             $("#myimage").attr("src", "Images/" + imgsrc);            
