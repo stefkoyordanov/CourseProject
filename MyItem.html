@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+    body, html {
+     height: 100%;
+     margin: 0;
+    }
+
+    .zoom-img {
+    /*
+    width: 600px;
+    height: 600px;
+    */   
+    
+    overflow: hidden;
+  }
+
+
+  .zoom-img img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /*transition: all .3s ease;*/
+                
+          transition: 0.5s all ease-in-out;
+  }
+
+
+  .zoom-img img:hover {
+              transform: scale(1.5);
+
+  }
+
+
+    </style>
+
     <link href="css/Bootstrap/bootstrap.min.css" rel="stylesheet" />       
     
     <script src="js/jquery/jquery.min.js"></script>
@@ -54,16 +90,22 @@
 
   <div id="includedMenu" class="sticky-top"></div>    
 
-  <div class="container mt-4">
+  <div class="container-fluid h-100 ">
     
 
         <div class="row gx-4 gx-lg-5 align-items-center">
           
           <div class="col-md-4">
-            <img id="myimage" src="" class="img-fluid rounded-start" alt="...">
+            
+            <div class=" rounded">
+            <div class="zoom-img">
+            <img id="myimage" src="" class="rounded img-fluid" alt="...">
+            </div>
+            </div>
+
           </div>
 
-          <div class="col-md-8">
+          <div class="col-md-6">
 
             <div class="fs-1 mb-3">Name</div>
 
