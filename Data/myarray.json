@@ -1,0 +1,102 @@
+{
+  "data": [
+    {
+      "type": "earrings",
+      "name": "Tiger Nixon",
+      "price": "System Architect",
+      "description": "Edinburgh",      
+      "image": "j1.jpeg",
+      "id": 1
+    },
+    {
+      "type": "earrings",
+      "name": "Garrett Winters",
+      "price": "Accountant",
+      "description": "Tokyo",      
+      "image": "j2.jpeg",
+      "id": 2
+    },
+    {
+      "type": "earrings",
+      "name": "Ashton Cox",
+      "price": "Junior Technical Author",
+      "description": "San Francisco",
+      "image": "j3.jpeg",
+      "id": 3
+    },
+    {
+      "type": "earrings",
+      "name": "Cedric Kelly",
+      "price": "Senior Javascript Developer",
+      "description": "Edinburgh",      
+      "image": "j4.jpeg",
+      "id": 4
+    },
+    {
+      "type": "earrings",
+      "name": "Airi Satou",
+      "price": "Accountant",
+      "description": "Tokyo",      
+      "image": "j5.jpeg",
+      "id": 5
+    },
+    {
+      "type": "earrings",
+      "name": "Brielle Williamson",
+      "price": "Integration Specialist",
+      "description": "New York",      
+      "image": "j6.jpeg",
+      "id": 6
+    },
+    {
+      "type": "earrings",
+      "name": "Herrod Chandler",
+      "price": "Sales Assistant",
+      "description": "San Francisco",      
+      "image": "j7.jpeg",
+      "id": 7
+    },
+    {
+      "type": "earrings",
+      "name": "Rhona Davidson",
+      "price": "Integration Specialist",
+      "description": "Tokyo",      
+      "image": "j1.jpeg",
+      "id": 8
+    },
+    {
+      "type": "earrings",
+      "name": "Colleen Hurst",
+      "price": "Javascript Developer",
+      "description": "San Francisco",      
+      "image": "j1.jpeg",
+      "id": 9
+    },
+    {
+      "type": "earrings",
+      "name": "Sonya Frost",
+      "price": "Software Engineer",
+      "description": "Edinburgh",      
+      "image": "j1.jpeg",
+      "id": 10
+    },
+    {
+      "type": "earrings",
+      "name": "Jena Gaines",
+      "price": "description Manager",
+      "description": "London",      
+      "image": "j1.jpeg",
+      "id": 11
+    },
+    {
+      "type": "earrings",
+      "name": "Quinn Flynn",
+      "price": "Support Lead",
+      "description": "Edinburgh",      
+      "image": "j1.jpeg",
+      "id": 12
+    }
+    
+
+  ]
+}

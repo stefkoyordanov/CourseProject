@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="css/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/DataTables/datatables.min.css" rel="stylesheet">
+
+    
+    
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper.js/umd/popper.min.js"></script>
+    <script src="js/Bootstrap/bootstrap.min.js"></script>
+    <script src="js/DataTables/datatables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {            
+
+            $.ajax({
+            //type: "POST",  //github ne dava POST method
+            url: "Data/myarray.json",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {        
+
+            $('#example').DataTable({
+            //ajax: 'Data/myarray.json',   
+            data: result.data.filter(el => el.type == "earrings"),         
+            searching: false,
+            columns: [
+                
+            { "data": "image", 
+            render: function (data, type, row) {
+                    return '<a href="MyItem.html?id=' + row.id+ '"><img src="Images/' + data + '" height="50" width="50"/></a>';
+
+                    //return "<a href='MyItem.html?id=" + row.id + "'><img src='Images/" + data + "' height='50' width='50'/></a>";
+                }
+            },
+            { "data": "name" },
+            { "data": "price" },
+                    
+            ] 
+            }); //DataTable
+
+        } //success: function (result) 
+    });
+
+            $("#includedMenu").load("Menu.html"); 
+        });
+    </script>
+
+
+</head>
+<body>
+
+    <div id="includedMenu" class="sticky-top"></div>    
+    
+      <div class="container mt-4">
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Image</th>                
+                <th>Name</th>                
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Image</th>                
+                <th>Name</th>                
+                <th>Price</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    </div>
+    
+</body>
+</html>
