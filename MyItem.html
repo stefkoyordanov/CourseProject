@@ -55,7 +55,7 @@
             var param = new URL(window.location).searchParams.get('id');
             
             
-            //$.getJSON("Data/arrays.json", function(result){
+            //$.getJSON("Data/myarray1.json", function(result){
             ////alert(result.data.find(el => el.id == param)["image"]);
             //var imgsrc=result.data.find(el => el.id == param)["image"];            
             //$("#myimage").attr("src", "Images/" + imgsrc);            
@@ -63,7 +63,7 @@
 
            $.ajax({
             //type: "POST",  //github ne dava POST method
-            url: "Data/arrays.json",
+            url: "Data/myarray1.json",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             //data: JSON.stringify({ 'egn': $(e.target).val() }), 
