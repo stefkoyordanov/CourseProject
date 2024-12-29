@@ -30,6 +30,10 @@
             //ajax: 'Data/myarray.json',   
             data: result.data.filter(el => el.type == "earrings"),         
             searching: false,
+            sorting: [ 1, "asc" ], // Sort by first column descending
+            "columnDefs": [
+                { targets: 0 ,"orderable": false  }
+            ],
             columns: [
                 
             { "data": "image", 
