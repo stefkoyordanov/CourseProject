@@ -21,11 +21,13 @@
             url: "Data/myarray.json",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
-            success: function (result) {        
+            success: function (result) {    
+            var param = new URL(window.location).searchParams.get('type');
+            //alert(param);
 
             $('#example').DataTable({
             //ajax: 'Data/myarray.json',   
-            data: result.data.filter(el => el.type == "earrings"),         
+            data: result.data.filter(el => el.type == param),         
             searching: false,
             sorting: [ 1, "asc" ], // Sort by first column descending
             "columnDefs": [
