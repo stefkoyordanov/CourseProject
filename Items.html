@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+        @font-face {
+        font-family: myFont;
+        src: url(Fonts/GreatVibes-Regular.ttf);        
+        }
+    </style>
+
     <link href="css/Bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/DataTables/datatables.min.css" rel="stylesheet">    
     
@@ -14,16 +21,17 @@
     <script src="js/DataTables/datatables.min.js"></script>
 
     <script>
-        $(document).ready(function () {            
+        $(document).ready(function () {  
+            
+            var param = new URL(window.location).searchParams.get('type');
+            //alert(param);
 
             $.ajax({
             //type: "POST",  //github ne dava POST method
             url: "Data/myarray.json",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
-            success: function (result) {    
-            var param = new URL(window.location).searchParams.get('type');
-            //alert(param);
+            success: function (result) {
 
             $('#example').DataTable({
             //ajax: 'Data/myarray.json',   
@@ -52,6 +60,29 @@
     });
 
             $("#includedMenu").load("Menu.html"); 
+           
+            if (param == "earrings"){
+                $("#itemtype").text("Обици");
+                $("#itemtype").css("color", "firebrick");
+            }            
+            else if (param == "necklaces"){
+                $("#itemtype").text("Колиета");
+                $("#itemtype").css("color", "darkorange");
+            }
+            else if (param == "brooches"){
+                $("#itemtype").text("Брошки");
+                $("#itemtype").css("color", "violet");
+            }
+            else if (param == "scarves"){
+                $("#itemtype").text("Шалове");
+                $("#itemtype").css("color", "gold");
+            }
+            else if (param == "hats"){
+                $("#itemtype").text("Шапки");
+                $("#itemtype").css("color", "green");
+            }            
+
+
         });
     </script>
 
@@ -60,8 +91,10 @@
 <body>
 
     <div id="includedMenu" class="sticky-top"></div>    
+
+    <div id="itemtype" class="mt-2 text-center" style="font-family: myFont;font-size: 80px; ">Обици</div>
     
-      <div class="container mt-4">
+      <div class="container">
     <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
