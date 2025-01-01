@@ -1,100 +1,404 @@
 {
   "data": [
     {
-      "type": "earrings",
-      "name": "Tiger Nixon",
-      "price": "System Architect",
+      "type": "necklaces",
+      "name": "Колие1",
+      "price": "12.50",
       "description": "Edinburgh",      
-      "image": "j1.jpeg",
+      "image": "j1.jpg",
       "id": 1
     },
     {
-      "type": "earrings",
-      "name": "Garrett Winters",
-      "price": "Accountant",
+      "type": "necklaces",
+      "name": "Колие2",
+      "price": "13.50",
       "description": "Tokyo",      
-      "image": "j2.jpeg",
+      "image": "j2.jpg",
       "id": 2
     },
     {
-      "type": "earrings",
-      "name": "Ashton Cox",
-      "price": "Junior Technical Author",
+      "type": "necklaces",
+      "name": "Колие3",
+      "price": "14.50",
       "description": "San Francisco",
-      "image": "j3.jpeg",
+      "image": "j3.jpg",
       "id": 3
     },
     {
-      "type": "earrings",
-      "name": "Cedric Kelly",
-      "price": "Senior Javascript Developer",
+      "type": "necklaces",
+      "name": "Колие4",
+      "price": "15.50",
       "description": "Edinburgh",      
-      "image": "j4.jpeg",
+      "image": "j4.jpg",
       "id": 4
     },
     {
-      "type": "earrings",
-      "name": "Airi Satou",
-      "price": "Accountant",
+      "type": "necklaces",
+      "name": "Колие5",
+      "price": "16.50",
       "description": "Tokyo",      
-      "image": "j5.jpeg",
+      "image": "j5.jpg",
       "id": 5
     },
     {
-      "type": "earrings",
-      "name": "Brielle Williamson",
-      "price": "Integration Specialist",
+      "type": "necklaces",
+      "name": "Колие6",
+      "price": "17.50",
       "description": "New York",      
-      "image": "j6.jpeg",
+      "image": "j6.jpg",
       "id": 6
     },
     {
-      "type": "earrings",
-      "name": "Herrod Chandler",
-      "price": "Sales Assistant",
+      "type": "necklaces",
+      "name": "Колие7",
+      "price": "18.50",
       "description": "San Francisco",      
-      "image": "j7.jpeg",
+      "image": "j7.jpg",
       "id": 7
     },
+
+
     {
       "type": "earrings",
-      "name": "Rhona Davidson",
-      "price": "Integration Specialist",
+      "name": "Обици1",
+      "price": "10.20",
       "description": "Tokyo",      
-      "image": "j1.jpeg",
+      "image": "j8.jpg",
       "id": 8
     },
     {
       "type": "earrings",
-      "name": "Colleen Hurst",
-      "price": "Javascript Developer",
+      "name": "Обици2",
+      "price": "11.20",
       "description": "San Francisco",      
-      "image": "j1.jpeg",
+      "image": "j9.jpg",
       "id": 9
     },
     {
       "type": "earrings",
-      "name": "Sonya Frost",
-      "price": "Software Engineer",
+      "name": "Обици3",
+      "price": "12.20",
       "description": "Edinburgh",      
-      "image": "j1.jpeg",
+      "image": "j10.jpg",
       "id": 10
     },
     {
-      "type": "hats",
-      "name": "Jena Gaines",
-      "price": "description Manager",
+      "type": "earrings",
+      "name": "Обици4",
+      "price": "13.20",
       "description": "London",      
-      "image": "j1.jpeg",
+      "image": "j11.jpg",
       "id": 11
     },
     {
-      "type": "scarves",
-      "name": "Quinn Flynn",
-      "price": "Support Lead",
+      "type": "earrings",
+      "name": "Обици5",
+      "price": "14.20",
       "description": "Edinburgh",      
-      "image": "j1.jpeg",
+      "image": "j12.jpg",
       "id": 12
+    },
+
+    {
+      "type": "brooches",
+      "name": "Брошки1",
+      "price": "10.80",
+      "description": "Edinburgh",      
+      "image": "j13.jpg",
+      "id": 13
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки2",
+      "price": "11.80",
+      "description": "Edinburgh",      
+      "image": "j14.jpg",
+      "id": 14
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки3",
+      "price": "12.80",
+      "description": "Edinburgh",      
+      "image": "j15.jpg",
+      "id": 15
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки4",
+      "price": "13.80",
+      "description": "Edinburgh",      
+      "image": "j16.jpg",
+      "id": 16
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки5",
+      "price": "14.80",
+      "description": "Edinburgh",      
+      "image": "j17.jpg",
+      "id": 17
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки6",
+      "price": "15.80",
+      "description": "Edinburgh",      
+      "image": "j18.jpg",
+      "id": 18
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки7",
+      "price": "16.80",
+      "description": "Edinburgh",      
+      "image": "j19.jpg",
+      "id": 19
+    },
+    {
+      "type": "brooches",
+      "name": "Брошки8",
+      "price": "17.80",
+      "description": "Edinburgh",      
+      "image": "j20.jpg",
+      "id": 20
+    },
+
+
+    {
+      "type": "scarves",
+      "name": "Шалове1",
+      "price": "20.50",
+      "description": "Edinburgh",      
+      "image": "j21.jpg",
+      "id": 21
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове2",
+      "price": "21.50",
+      "description": "Edinburgh",      
+      "image": "j22.jpg",
+      "id": 22
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове3",
+      "price": "22.50",
+      "description": "Edinburgh",      
+      "image": "j23.jpg",
+      "id": 23
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове4",
+      "price": "23.50",
+      "description": "Edinburgh",      
+      "image": "j24.jpg",
+      "id": 24
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове5",
+      "price": "24.50",
+      "description": "Edinburgh",      
+      "image": "j25.jpg",
+      "id": 25
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове6",
+      "price": "25.50",
+      "description": "Edinburgh",      
+      "image": "j26.jpg",
+      "id": 26
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове7",
+      "price": "26.50",
+      "description": "Edinburgh",      
+      "image": "j27.jpg",
+      "id": 27
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове8",
+      "price": "27.50",
+      "description": "Edinburgh",      
+      "image": "j28.jpg",
+      "id": 28
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове9",
+      "price": "28.50",
+      "description": "Edinburgh",      
+      "image": "j29.jpg",
+      "id": 29
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове10",
+      "price": "29.50",
+      "description": "Edinburgh",      
+      "image": "j30.jpg",
+      "id": 30
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове11",
+      "price": "30.50",
+      "description": "Edinburgh",      
+      "image": "j31.jpg",
+      "id": 31
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове12",
+      "price": "31.50",
+      "description": "Edinburgh",      
+      "image": "j32.jpg",
+      "id": 32
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове13",
+      "price": "32.50",
+      "description": "Edinburgh",      
+      "image": "j33.jpg",
+      "id": 33
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове14",
+      "price": "33.50",
+      "description": "Edinburgh",      
+      "image": "j34.jpg",
+      "id": 34
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове15",
+      "price": "34.50",
+      "description": "Edinburgh",      
+      "image": "j35.jpg",
+      "id": 35
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове16",
+      "price": "35.50",
+      "description": "Edinburgh",      
+      "image": "j36.jpg",
+      "id": 36
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове17",
+      "price": "36.50",
+      "description": "Edinburgh",      
+      "image": "j37.jpg",
+      "id": 37
+    },
+    {
+      "type": "scarves",
+      "name": "Шалове18",
+      "price": "37.50",
+      "description": "Edinburgh",      
+      "image": "j38.jpg",
+      "id": 38
+    },
+
+
+    
+    {
+      "type": "hats",
+      "name": "Шапки1",
+      "price": "5.40",
+      "description": "Edinburgh",      
+      "image": "j39.jpg",
+      "id": 39
+    },
+    {
+      "type": "hats",
+      "name": "Шапки2",
+      "price": "6.40",
+      "description": "Edinburgh",      
+      "image": "j40.jpg",
+      "id": 40
+    },
+    {
+      "type": "hats",
+      "name": "Шапки3",
+      "price": "7.40",
+      "description": "Edinburgh",      
+      "image": "j41.jpg",
+      "id": 41
+    },
+    {
+      "type": "hats",
+      "name": "Шапки4",
+      "price": "8.40",
+      "description": "Edinburgh",      
+      "image": "j42.jpg",
+      "id": 42
+    },
+    {
+      "type": "hats",
+      "name": "Шапки5",
+      "price": "9.40",
+      "description": "Edinburgh",      
+      "image": "j43.jpg",
+      "id": 43
+    },
+    {
+      "type": "hats",
+      "name": "Шапки6",
+      "price": "10.40",
+      "description": "Edinburgh",      
+      "image": "j44.jpg",
+      "id": 44
+    },
+    {
+      "type": "hats",
+      "name": "Шапки7",
+      "price": "11.40",
+      "description": "Edinburgh",      
+      "image": "j45.jpg",
+      "id": 45
+    },
+    {
+      "type": "hats",
+      "name": "Шапки8",
+      "price": "12.40",
+      "description": "Edinburgh",      
+      "image": "j46.jpg",
+      "id": 46
+    },
+    {
+      "type": "hats",
+      "name": "Шапки9",
+      "price": "13.40",
+      "description": "Edinburgh",      
+      "image": "j47.jpg",
+      "id": 47
+    },
+    {
+      "type": "hats",
+      "name": "Шапки10",
+      "price": "14.40",
+      "description": "Edinburgh",      
+      "image": "j48.jpg",
+      "id": 48
+    },
+    {
+      "type": "hats",
+      "name": "Шапки11",
+      "price": "15.40",
+      "description": "Edinburgh",      
+      "image": "j49.jpg",
+      "id": 49
     }
     
 

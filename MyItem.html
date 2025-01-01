@@ -81,7 +81,14 @@ src: url(Fonts/GreatVibes-Regular.ttf);
             //alert(JSON.stringify(result.data[0]));
             //alert(result.data.find(el => el.id == param)["image"]);
             var imgsrc = result.data.find(el => el.id == param)["image"];            
-            $("#myimage").attr("src", "Images/" + imgsrc);            
+            $("#myimage").attr("src", "Images/" + imgsrc);      
+            
+            var name = result.data.find(el => el.id == param)["name"];
+            $("#myname").text(name); 
+
+            var price = result.data.find(el => el.id == param)["price"];
+            $("#myprice").text(price); 
+            
             } //success: function (result)            
            });
             
@@ -104,7 +111,7 @@ src: url(Fonts/GreatVibes-Regular.ttf);
             
             <div class=" rounded">
             <div class="zoom-img">
-            <img id="myimage" src="" class="rounded img-fluid" alt="...">
+            <img id="myimage" src="" class="rounded img-fluid" alt="..." style="max-width: 400px;max-height:400px;">
             </div>
             </div>
 
@@ -112,12 +119,14 @@ src: url(Fonts/GreatVibes-Regular.ttf);
 
           <div class="col-md-6">
 
-            <div class="fs-1 mb-3">Name</div>
+            <div class="fs-1 mb-3" id="myname">Name</div>
 
             <div class="fs-3 fw-bold mb-3">
-            <span>Price</span>
-            </div>    
-            <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+            <span id="myprice">Price</span>
+            <span> лв.</span>
+            </div>  
+              
+            <!-- <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p> -->
     
           </div>
 
