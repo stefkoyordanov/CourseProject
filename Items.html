@@ -45,7 +45,7 @@
                 
             { "data": "image", 
             render: function (data, type, row) {
-                    return '<a href="MyItem.html?id=' + row.id+ '"><img src="Images/' + data + '" height="50" width="50"/></a>';
+                    return '<a href="MyItem.html?id=' + row.id+ '" ><img src="Images/' + data + '" height="50" width="50"/></a>';
 
                     //return "<a href='MyItem.html?id=" + row.id + "'><img src='Images/" + data + "' height='50' width='50'/></a>";
                 }
@@ -80,8 +80,9 @@
             else if (param == "hats"){
                 $("#itemtype").text("Шапки");
                 $("#itemtype").css("color", "green");
-            }            
-
+            } 
+            
+            
 
         });
     </script>
@@ -95,7 +96,7 @@
     <div id="itemtype" class="mt-2 text-center" style="font-family: myFont;font-size: 80px; ">Обици</div>
     
       <div class="container">
-    <table id="example" class="display" style="width:100%">
+    <table id="example" class="display hover" style="width:100%">
         <thead>
             <tr>
                 <th></th>                
